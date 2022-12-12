@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-pesquisa {
+  display: flex;
+  width: 100;
+  height: 50%;
+  flex-direction: column;
+
+  text-align: center;
+}
+.inputs-container {
+  width: 100%;
+  text-align: center;
+}
+.container-pesquisa h1 {
+  font-size: 2.9rem;
+  font-weight: bolder
+}
+
+.container-pesquisa input[type="text"] {
+  width: 400px;
+  height: 40px;
+  font-size: 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  padding-left: 3px;
+  border: 2px solid black;
+  outline: none;
+}
+.container-pesquisa input[type="button"] {
+  width: 100px;
+  height: 30px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  margin-left: 9px;
+  background-color: black;
+  color: #fff;
+}
+
+.gerar-container {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gerar-container label {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 6px;
+}
+
+.gerar-container input[type="checkbox"] {
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.resultado-container {
+  width: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.resultado-container input[type="url"] {
+  width: 50%;
+  height: 30px;
+  font-size: 1.2rem;
+}
+.resultado-container label {
+  margin: 5px;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.resultado-container li {
+  margin: 5px;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.resultado-container p {
+  margin: 5px;
+  font-size: 1.2rem;
+}
